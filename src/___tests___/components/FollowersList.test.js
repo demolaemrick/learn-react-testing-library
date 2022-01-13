@@ -1,6 +1,6 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import { BrowserRouter } from "react-router-dom";
-import FollowersList from "../FollowersList";
+import FollowersList from "../../components/FollowersList/FollowersList";
 
 const MockFollowersList = () => {
   return (

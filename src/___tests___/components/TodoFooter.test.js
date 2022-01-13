@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import TodoFooter from "../TodoFooter";
+import TodoFooter from "../../components/TodoFooter/TodoFooter";
 import { BrowserRouter } from "react-router-dom";
 
 const MockTodoFooter = ({ numberOfIncompleteTasks }) => {
